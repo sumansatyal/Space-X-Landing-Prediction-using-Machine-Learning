@@ -3,6 +3,7 @@ This project creates a machine learning pipeline to predict if the first stage o
 The whole project is in the Jupyter Notebook. The Notebook guides you through each step and includes all required Python Code.
 
 The sections in the Notebook include:
+
 1. Import necessary Python Libraries
 2. Write a Function to plot the Confusion Matrix
 3. Load the Dataframe into Pandas
@@ -13,3 +14,4 @@ The sections in the Notebook include:
 8. Create a decision tree classifier object then create a GridSearchCV object tree_cv with cv = 10
 9. Fit the object to find the best parameters from the dictionary parameters
 10. Plot Accuracy of Each Model: LogReg, SVM, TREE, KNN
+  
